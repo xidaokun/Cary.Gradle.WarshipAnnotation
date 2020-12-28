@@ -31,11 +31,12 @@ dependencies {
     implementation localGroovy()
 }
 
+
 publish {
     userOrg = 'xidaokun'
     groupId = 'org.warship'
     artifactId = 'annotation'
-    publishVersion = "0.0.1"
+    publishVersion = "0.0.3"
     desc = 'Warship annotation'
     repoName = 'warship'
     website = 'https://github.com/xidaokun/WarshipAnnotation'
